@@ -81,7 +81,7 @@ function Book() {
             'orderBy': 'startTime'
           }).then(response => {
             const events = response.result.items
-            console.log('EVENTS: ', events)
+            console.log('event scheduled')
           }).catch(e => {
             console.log(e)
           })
