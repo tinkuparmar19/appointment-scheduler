@@ -1,7 +1,6 @@
 import React from 'react'
-import formImage from '../form.svg'
 import {Link} from 'react-router-dom'
-import { Button, Container } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 
 function LandingPage() {
     return (
